@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(fontes/roxaine_serif/) format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --Cor0:#BF5084;
+    --Cor1:#D962A3;
+    --Cor2:#F279BC;
+    --Cor3:#F291C7;
+    --Cor4:#F2A0CD;
+
+    --font-padrao: arial, verdana, helvetica, sans-serif;
+    --font-destaque: "Berkshire Swash", serif;
+}
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+
+body{
+ background-color:#FFE6F2;
+ font-family: var(--font-padrao);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--Cor4), var(--Cor2));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+header > h1{
+    color:white;
+    font-family: var(--font-padrao);
+    font-size: 3m;
+    font-weight: bold;
+margin-bottom: 10px;
+text-shadow: 2px 2px 2px black;
+}
+
+header > p{
+    font-family: var(--font-padrao);
+    font-size: 20px;
+    color: whitesmoke;
+    max-width: 770px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+nav{
+    background-color:#fc84c6 ;
+    padding: 30px;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+nav > a{
+    color: var(--Cor0);
+    padding: 20px 15px;
+    border-radius: 20px;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+main{
+    background-color: var(--Cor4);
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 1px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1{
+    color:#F2A0CD;
+    font-weight: normal;
+    font-family: var(--font-destaque);
+
+}
+
+main > h2{
+    font-family: var(--font-destaque);
+    color: #F2A0CD;
+    font-size: medium;
+}
