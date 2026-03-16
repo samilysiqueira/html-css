@@ -1,0 +1,102 @@
+@charset "UTF-8;";
+
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+h1 img{
+      width: 40px;
+    vertical-align: middle;
+    color: white;
+}
+
+input{
+     display: block;
+    width: 320px;
+    margin: 12px auto;
+    padding: 12px;
+
+    background-color: #121212;
+    color: white;
+
+    border: 1px solid #535353;
+    border-radius: 6px;
+
+    font-size: 14px;
+}
+
+p{
+    text-align: center;
+    margin: 5px auto;
+    color: white;
+}
+
+#lembre{
+  text-align: left;
+  font-weight: bold;
+  color: #535353;
+}
+
+#entrar{
+    display: block;
+    width: 320px;
+    margin: 12px auto;
+    padding: 15px;
+
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+    border-radius: 25px;
+}
+
+button{
+  display: block;
+  width: 320px;
+  margin: 12px auto;
+  padding: 15px;
+
+  background-color: rgba(23, 88, 173, 0.959);
+  color: white;
+  font-weight: bold;
+
+  border-radius: 25px;
+}
+
+button img{
+    width: 20px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+p{
+    font-weight: bold;
+    color: #535353;
+   font-size: 15px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+footer a {
+    color: #535353;
+    font-weight: bold;
+
+    }
