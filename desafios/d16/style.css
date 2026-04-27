@@ -43,4 +43,8 @@ header a{
 
 #flor{
     background-image: url('imagens/flor.avif');
+    height: 300px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
 }
