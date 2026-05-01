@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Carter+One&family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{ 
+--fonte1:Verdana, Geneva, Tahoma, sans-serif;
+--fonte2: "Sriracha", cursive;
+}
 
 * {
     margin: 0px;
@@ -10,7 +15,8 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
-
+    font-family: var(--fonte1);
+   
 }
 
 header{
@@ -22,9 +28,10 @@ header{
 }
 
 header h1{
-    font-family:' Berkshire Swash', sans-serif;
+    font-family:var(--fonte2);
     padding-top:50px ;
     font-variant:small-caps;
+    font-size:10vw;
     
 }
 
@@ -41,8 +48,32 @@ header p{
 
 }
 
-a:hover{
+header a:hover{
     text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(58, 54, 54);
 }
 
 footer{
@@ -52,17 +83,3 @@ footer{
     padding: 10px;
 }
 
-.imagen{
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-}
-
-#flor{
-    background-image: url('imagens/flor.avif');
-    height: 400px;
-    width: 100%;
-    display: block;
-    background-size: cover;
-    background-position: center;
-}
