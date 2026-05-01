@@ -2,37 +2,54 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Carter+One&family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    margin: 0;
+* {
+    margin: 0px;
+    padding: 0%px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+
 }
 
 header{
-    height: 200px;
     background-color: black;
+    color:white ;
+    text-align: center;
 
-      display: flex;
-      flex-direction: column;
-    justify-content: center;
-    align-items: center;
+      
 }
 
 header h1{
     font-family:' Berkshire Swash', sans-serif;
-    color: white;
-    font-size: 60px;
-   margin: 0px;
+    padding-top:50px ;
+    font-variant:small-caps;
     
 }
 
 header p{
+    padding-bottom: 50px;
  color: white;
  text-align: center;
 }
 
-header a{
+ header a{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .imagen{
@@ -43,8 +60,9 @@ header a{
 
 #flor{
     background-image: url('imagens/flor.avif');
-    height: 300px;
-    width: 100px;
+    height: 400px;
+    width: 100%;
+    display: block;
     background-size: cover;
     background-position: center;
 }
