@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th
@@ -24,9 +25,12 @@
                 background-color: gray;
             }
         
-            td.num{
-                text-align: right;
+            thead > tr > th{
+                position: sticky;
+                top: -1px;
+                background-color: gray;
             }
+            
 
             caption{
                font-size: 1.5em;
@@ -34,6 +38,10 @@
                padding: 10px;
                background-color: lightgray;
             }
+
+          tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+          }
     </style>
 </head>
 <body>
@@ -59,7 +67,7 @@
     </thead>
     <tbody>
        <tr class="num">
-        <td>São paulo</td>class
+        <td>São paulo</td>
         <td>46 081 801</td>
        </tr>
        <tr class="num">
