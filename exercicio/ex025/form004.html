@@ -11,19 +11,30 @@
             background-image: linear-gradient(to right, #F29199,#F2BDC1 );
           
         }
-
-        fieldset{
-            width: 500px;
-            height: 300px;
-           
-        }
+         
+    
+    
+    label{
+        display: block;
+          margin-bottom: 5px;
+    }
 
         .campo{
-         width: 80%;      
-         height: 45px;    
-         font-size: 15px; 
-       
-         border-radius: 10px
+               width: 80%;
+         height: 30px;    
+           font-size: 15px;  
+         border-radius: 20px
+        
+          }
+
+          .botoes{
+            display: flex;
+            justify-content: center; /* horizontal */
+            align-items: center; 
+          }
+
+          .botao{
+         width: 40%;
           }
   
     </style>
@@ -47,9 +58,9 @@
                 <p>
                 <!--Estudar mais sobre RegEx-->
                 </p>
-                <p>
-            <input  type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+                <p class="botoes" >
+            <input class="botao" type="submit" value="Enviar">
+            <input class="botao" type="reset" value="Limpar">
                 </p>
         
     </form>
