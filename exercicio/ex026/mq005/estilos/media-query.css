@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media screnn and (min-width: 700px){
+    span#burguer{
+        display: none;
+    }
+}
+
+menu{
+    display: block;
+}
